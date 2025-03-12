@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Assistant</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            height: 100vh;
+        }
+        .sidebar {
+            width: 300px;
+            background: #f4f4f4;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .sidebar img {
+            width: 80%;
+            max-width: 200px;
+        }
+        .toggle {
+            margin: 10px 0;
+        }
+        .dropdown {
+            width: 100%;
+            padding: 8px;
+            font-size: 16px;
+        }
+        .main-content {
+            flex-grow: 1;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: top;
+            align-items: center;
+        }
+        .query-box {
+            width: 80%;
+            max-width: 600px;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <img src="F:\shivraj\project2\SAHAB-main\images\Judge.png" alt="Judge Illustration">
+        <h3>Know your rights</h3>
+        <label class="toggle">
+            <input type="checkbox" checked> Online Mode
+        </label>
+        <select class="dropdown">
+            <option>English</option>
+            <option>Hindi</option>
+        </select>
+    </div>
+    <div class="main-content">
+        <h1>ASSISTANT FOR LEGAL AWARENESS AND KNOW-YOUR-RIGHTS IN INDIA</h1>
+        <input type="text" class="query-box" placeholder="Start with your legal query">
+    </div>
+</body>
+</html>
