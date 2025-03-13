@@ -11,7 +11,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 import google.generativeai as genai
 from werkzeug.security import generate_password_hash, check_password_hash
 
-GOOGLE_API_KEY = "AIzaSyBhALET5TtBDCho3XiU8N_E1Nd86-vPWC0"
+GOOGLE_API_KEY = "Add API key here"
 
 genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel('gemini-1.5-pro')
